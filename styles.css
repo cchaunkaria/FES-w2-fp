@@ -1,0 +1,503 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    padding: 80px 0;
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.text__purple{
+    color: rgb(130, 21, 255);
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.text__grey{
+    color: grey;
+}
+
+.section__title{
+    font-weight: bold;
+    padding: 16px 0px;
+    font-size: 24px;
+}
+
+.section__header{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section__para{
+    font-weight: bold;
+    padding: 16px 0;
+}
+
+.text__center{
+    text-align: center;
+}
+
+
+/* NAV */
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav__link{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin: 0 1.5rem;
+    color: black;
+    transition: all 300ms ease;
+    padding-bottom: 6px;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+    color: rgba(100,21,255);
+}
+
+.nav__link--signup{
+    background-color: rgba(100,21,255);
+    border-radius: 4px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav__link--signup:hover{
+    text-decoration: none;
+    background-color: rgb(130, 21, 255);
+    color: whitesmoke;
+}
+
+.logo{
+    display: inline;
+    width: 2.5rem;
+    margin-right: 8px;
+}
+
+.logo__text{
+    display: inline;
+    font-weight: bold;
+}
+
+/* NAV END */
+
+/* EXAMPLE */
+
+
+
+.left__side{
+    width: 40%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.right__side{
+    width: 60%;
+    display: flex;
+    
+}
+
+.title{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.title__para{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: bold;
+}
+
+.email__info{
+    border: 2px solid grey;
+    border-radius: 32px;
+    padding: 4px;
+    width: 90%;
+}
+
+.email__info:hover{
+    border: 2px solid rgb(102, 102, 102);
+}
+
+.email__address{
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn__get__started{
+    width: 40%;
+    padding: 20px;
+    border-radius: 32px;
+    background-color: rgba(100,21,255);
+    color: whitesmoke;
+    border: rgba(100,21,255);
+    font-weight: bold;
+    float: right;
+    font-size: 90%;
+    transition: all 300ms ease;
+}
+
+.btn__get__started:hover{
+    background-color: rgb(39, 8, 102);
+}
+
+.para__our__trusted__customers{
+    padding-top: 50px;
+    color: grey;
+    font-weight: bold;
+
+}
+
+.img__customer__logo__strip{
+    width: 70%;
+    padding: 24px 6px;
+}
+
+.img__office{
+    width: 100%;
+}
+
+/* EXAMPLE END */
+
+/* FEATURES */
+
+.features__list--wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature{
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    padding: 32px 16px;
+}
+
+.feature__description{
+    display: flex;
+    flex-direction: column;
+}
+
+.feature__img--wrapper{
+    border: 2px solid rgb(241, 238, 238);
+    border-radius: 32px;
+    padding: 16px;
+}
+
+.feature__img{
+    display: flex;
+}
+
+.feature__title{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 8px 16px;
+}
+
+.feature__para{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    color: grey;
+}
+
+/* FEAURES ENDD */
+
+/* QUALITY WORK */
+
+.btn__learn__more{
+    width: 30%;
+    padding: 12px;
+    border-radius: 32px;
+    background-color: rgba(100,21,255);
+    color: whitesmoke;
+    border: rgba(100,21,255);
+    font-weight: bold;
+    float: right;
+    font-size: 90%;
+    transition: all 300ms ease;
+}
+
+.btn__learn__more:hover{
+    background-color: rgb(39, 8, 102);
+}
+
+.img__screenshot{
+    width: 100%;
+    border: 5px grey;
+}
+
+/* QUALITY WORK ENDD */
+
+/* STEPS  */
+
+.left__side--50{
+    width: 50%;
+    display: flex;
+    float: left;
+}
+
+.right__side--50{
+    width: 50%;
+    display: flex;
+   
+    flex-direction: column;
+}
+
+.steps__img--wrapper{
+    width: 100%;
+}
+
+.img__laptop{
+    width: 90%;
+}
+
+.steps__left{
+    display: flex;
+}
+
+.steps__number{
+    font-size: 40px;
+    padding-top: 32px;
+    color: lightgrey;
+}
+
+.steps__right{
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__title{
+    padding-top: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+
+.steps__para{
+    padding-left: 32px;
+    color: grey;
+    font-size: 16px;
+}
+
+/* STEPS  ENDD */
+
+/* VALUES */
+
+.left__side__split--left{
+    width: 50%;
+    float: left;
+}
+
+.left__side__split--right{
+    width: 50%;
+    float: right;
+}
+
+.subheading__title{
+    display: inline;
+}
+
+.left__side__split--wrapper{
+    padding: 8px 0px;
+}
+
+.img__prototype{
+    width: 100%;
+}
+
+.values__para{
+    padding: 16px 0px;
+    font-weight: bold;
+}
+
+.subheading__title{
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+.values__para--split{
+    padding: 8px 0px;
+    font-weight: bold;
+}
+
+/* VALUES  ENDD */
+
+/* PRICING */
+
+.plans{
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plan__1--top{
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-color: rgb(129, 230, 217) rgb(229, 231, 235) rgb(229, 231, 235) ;
+}
+
+.plan__title{
+    padding-top: 16px;
+}
+
+.plan__pricing{
+    padding: 16px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.plan__length{
+    padding-bottom: 16px;
+}
+
+.plan__1--middle{
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-color: rgb(229, 231, 235);
+}
+
+.plan__description{
+    padding: 8px 0px;
+}
+
+.btn__buy__now{
+    width: 50%;
+    padding: 12px;
+    border-radius: 32px;
+    background-color: rgba(100,21,255);
+    color: whitesmoke;
+    border: rgba(100,21,255);
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 90%;
+    transition: all 300ms ease;
+}
+
+.btn__buy__now:hover{
+    background-color: rgb(39, 8, 102);
+}
+
+.btn__container{
+    padding: 16px;
+}
+
+.plan__1--bottom{
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-color: rgb(229, 231, 235);
+}
+
+.plan__Business{
+    background-color: rgb(76, 81, 191);
+    color: whitesmoke;
+    margin: 0 24px;
+    border-radius: 0.5rem;
+}
+
+.plan__2--top{
+    line-height: 40px;
+    border-bottom: solid 2px;
+    border-color: rgb(102, 126, 234);
+}
+
+.plan__2--middle{
+    line-height: 40px;
+    border-bottom: solid 2px;
+    border-color: rgb(102, 126, 234);
+}
+
+.plan__2--bottom{
+    line-height: 40px;
+}
+
+.btn__buy__now--Business{
+    width: 50%;
+    padding: 16px;
+    border-radius: 99px;
+    background-color: whitesmoke;
+    border: whitesmoke;
+    font-weight: bold;
+    color: rgb(102, 126, 234);
+    transition: 300ms ease;
+}
+
+.btn__buy__now--Business:hover{
+    transform: scale(1.02);
+}
+
+.plan__Enterprise{
+    margin: 0 24px;
+    border-radius: 0.5rem;
+}
+
+.plan__3--top{
+    border-top-color:  rgb(245, 101, 101);
+    border-top-width: 2px;
+}
